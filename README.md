@@ -1,2 +1,2 @@
 # GanttChart
-Gantt Chartt creation
+Gantt Chartt creation using JavaScript.
