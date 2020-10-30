@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gantt Chartt</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chart-wrapper">
+        <ul class="chart-values">
+            <li>mon</li>
+            <li>tue</li>
+            <li>wed</li>
+            <li>thu</li>
+            <li>fri</li>
+            <li>sat</li>
+            <li>sun</li>
+        </ul>
+        <ul class="chart-bars">
+            <li data-duration="mon-wed" data-color="#b03532">Design</li>
+            <li data-duration="tue½-thu" data-color="#33a8a5">Development</li>
+            <li data-duration="thu-fri" data-color="#44992c">Tests</li>
+        </ul>
+    </div>
+    <div class="chart-inputs">
+        <input type="text">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
