@@ -72,9 +72,14 @@ body {
     position: fixed;
     top: 0;
     margin-left: 15vw;
-}
-
-.chart-inputs input {
     margin-top: 640px;
     font-size: 21px;
+}
+
+.chart-inputs ul {
+    display: flex;
+}
+
+.chart-inputs ul li {
+    margin-right: 15px;
 }
